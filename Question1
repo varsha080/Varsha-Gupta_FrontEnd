@@ -1,0 +1,5 @@
+#Here is the answer of question 1
+The ListComponent component is a functional component that takes items array as a prop. 
+It initializes a state name 'SelectedIndex' using useState hook and its value is set to null using useEffect hook which re renders on changing the value in items.
+It also has a 'handleClick' function that sets the 'selectedIndex' state to the index of the item clicked.
+Finally, it uses map function ans renders a 'SingleListItem' component for each item and passing it props.
