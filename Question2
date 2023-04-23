@@ -1,0 +1,5 @@
+#There are few problems in the react code
+In line items: PropTypes.array(PropTypes.shapeOf , we should have use shape function instead of shapeof.
+In this line items: null, we should provide items [] not null as it is a array and its emoty value should be empty array.
+In this line onClick={onClickHandler(index)} it should be onClick={()=> onClickHandler(index)}
+In the line items: PropTypes.array(PropTypes.shapeOf({ , it should be arrayOf instead of array
