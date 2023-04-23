@@ -3,3 +3,4 @@ In line items: PropTypes.array(PropTypes.shapeOf , we should have use shape func
 In this line items: null, we should provide items [] not null as it is a array and its emoty value should be empty array.
 In this line onClick={onClickHandler(index)} it should be onClick={()=> onClickHandler(index)}
 In the line items: PropTypes.array(PropTypes.shapeOf({ , it should be arrayOf instead of array
+In the SingleListItem component, the isSelected prop is not being passed correctly. It should be passed as a boolean value like isSelected={selectedIndex === index}
